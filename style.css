@@ -1,0 +1,73 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+html,body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(218, 23%, 16%);
+}
+main.principal{
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    width: 30%;
+    min-width: 250px;
+    background-color: hsl(217, 19%, 24%);
+    padding: 3rem;
+    font-family: 'Manrope', sans-serif;
+    border-radius: 20px;
+    transition: box-shadow 1s linear;
+    box-shadow: 1px 1px 10px hsl(0, 0%, 100%);
+}
+.principal h1{
+    color: hsl(150, 100%, 66%);
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 5px;
+    transition: 1s;
+}
+.principal p{
+    text-align: center;
+    
+}
+.principal i{
+    font-size: 1rem;
+    color: hsl(150, 100%, 66%);
+    font-weight: 100;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 2px;
+    
+}
+.principal img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.principal button{
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 50%;
+    padding: 1rem;
+    background-color: hsl(150, 100%, 66%);
+    cursor: pointer;
+    margin-bottom: -80px;
+    transition: box-shadow 1s linear;
+    
+    
+}
+.principal button:hover{
+    box-shadow: 10px 10px 5rem hsl(150, 100%, 66%);
+}
+
+.principal button img{
+    width: 90%;
+    margin-bottom: 0;
+}
